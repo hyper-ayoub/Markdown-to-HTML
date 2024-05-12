@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-""" MardownScript Python -> Html """
+""" MarkdownScript Python -> Html """
 
 import sys
 import os
@@ -26,7 +26,7 @@ def convert_markdown_to_html(markdown_file, output_file):
 if __name__ == "__main__":
     # Check number of arguments
     if len(sys.argv) < 3:
-        print("Usage:./markdown2html.py<input_file><output_file>", file=sys.stderr)
+        print("Usage: ./markdown2html.py <input_file> <output_file>", file=sys.stderr)
         sys.exit(1)
 
     # Get input and output file names
