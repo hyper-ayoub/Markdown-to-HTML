@@ -4,7 +4,6 @@
 
 import sys
 import os.path
-import markdown
 
 
 def convert_markdown_to_html(markdown_file, output_file):
