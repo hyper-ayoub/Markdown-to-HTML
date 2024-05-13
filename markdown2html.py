@@ -30,10 +30,6 @@ if __name__ == "__main__":
 
     # Get input and output file names
     markdown_file = sys.argv[1]
-    output_file = sys.argv[2]
-
-    # Convert Markdown to HTML
-    convert_markdown_to_html(markdown_file, output_file)
-
+    output_file = sys.argv[2 ]
     # Exit with success status
     sys.exit(0)
