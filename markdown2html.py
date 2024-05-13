@@ -8,7 +8,6 @@ import re
 import hashlib
 
 
-
 def convert_markdown_to_html(markdown_file, output_file):
     # Check if Markdown file exists
     if not os.path.exists(markdown_file):
