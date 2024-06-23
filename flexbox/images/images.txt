@@ -1,6 +1,0 @@
-images
-
-1picture -> about done
-3picture -> work  done
-3picture -> article done 
-3picture -> person done
