@@ -372,6 +372,9 @@
   }
   /* Section ABOUT US
   ============================= */
+  .section-about-us [class*='col-'] {
+    /* Your styles here */
+  }
   .section-about-us .col-1-2,
   .section-about-us .col-1-3 {
     align-self: center;
