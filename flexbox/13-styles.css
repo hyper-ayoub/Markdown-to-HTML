@@ -777,7 +777,7 @@ ul.row {
       padding-bottom: 1rem;
       border-bottom: 0.2rem solid var(--color-light-grey);
     }
-    .post-meta-list [class^="post-meta-"] :last child {
+    .post-meta-list [class^="post-meta-"] :last-child {
       border: 0;
       margin-bottom: 3rem;
     }
