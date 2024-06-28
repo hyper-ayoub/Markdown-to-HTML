@@ -779,11 +779,9 @@ ul.row {
     }
     
     .post-meta-list [class^="post-meta-"]:last-child {
-      border: 0;
       margin-bottom: 3rem;
+      border:0;
     }
-    
-    
     /* Tag list
     ============================= */
     .tag-list {
