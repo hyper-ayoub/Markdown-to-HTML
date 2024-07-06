@@ -675,10 +675,3 @@
         border: none;
         padding: 0 0 2rem;
     }
-    label {
-        cursor: pointer;
-        display: block;
-        font-size: 1.4rem;
-        white-space: nowrap; /** don't wrap the white space **/
-        padding: 0 0 .5rem;
-    }
