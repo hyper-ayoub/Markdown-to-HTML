@@ -678,7 +678,7 @@
     label {
         cursor: pointer;
         display: block;
+        white-space: nowrap;
         font-size: 1.4rem;
-        flex-wrap: nowrap;
         padding: 0 0 .5rem;
     }
