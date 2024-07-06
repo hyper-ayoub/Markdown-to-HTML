@@ -738,7 +738,7 @@
 /* Form help
 ============================= */
 
-.form-group.form-help {
+.form-group .form-help {
     margin: 0;
     line-height: 1.3;
     letter-spacing: .019rem;
