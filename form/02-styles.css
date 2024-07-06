@@ -679,6 +679,6 @@
         cursor: pointer;
         display: block;
         font-size: 1.4rem;
-        white-space: unset;
+        white-space: nowrap; /** don't wrap the white space **/
         padding: 0 0 .5rem;
     }
