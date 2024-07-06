@@ -744,7 +744,7 @@
     letter-spacing: .019rem;
     color: var(--color-dark-grey);
     font-size: var(--font-size-small);
-    max-height: 20rem;
+    max-height: 0;
     transition: .3s;
     overflow: hidden;
 
