@@ -683,8 +683,12 @@
   .card-work .card-title a {
     opacity: 1;
   }
-
-
+  
+  .card-work .card-title a:focus, .card-work:hover .card-title a{
+    opacity: 1;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
   
   @media only screen and (max-width: 767px) {
   
@@ -1097,3 +1101,5 @@
     cursor: text;
     margin: 0 1rem;
   }
+
+
