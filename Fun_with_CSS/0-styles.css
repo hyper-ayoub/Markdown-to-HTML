@@ -1,0 +1,63 @@
+body {
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 220px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 1000;
+}
+
+
+ul>li {
+    align-items: center;
+    text-align: center;
+    display: inline-flex;
+    border: 2px solid gray;
+    font-size: 25px;
+    color: black;
+    text-decoration: none;
+    list-style-type: none;
+    margin-top: 80px;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+
+}
+
+li:first-child {
+    margin: 1rem;
+    padding: 10px;
+    flex-direction: column;
+    background-image: url('image/0-sprite.png');
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    background-position: left;
+}
+
+li:nth-child(2) {
+    margin: 1rem;
+    padding: 10px;
+    flex-direction: column;
+    background-image: url('image/0-sprite.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 440px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+
+
+}
+
+li:last-child {
+    margin: 1rem;
+    padding: 10px;
+    flex-direction: column;
+    background-image: url('image/0-sprite.png');
+    background-repeat: no-repeat;
+    background-position: right center;
+    height: 440px;
+    width: 250px;
+    align-items: center;
+    text-align: center;
+}
