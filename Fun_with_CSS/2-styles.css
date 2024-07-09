@@ -1,0 +1,102 @@
+:root {
+    --toggle-width: 80px; /* Adjust this to the desired width */
+    --toggle-height: 30px; /* Adjust this to the desired height */
+    --toggle-switch-size: 30px; 
+    
+}
+
+.toggle {
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+    
+}
+
+.toggle input[type="checkbox"] {
+    display: none;
+}
+
+.toggle-label {
+    position: relative;
+    width: var(--toggle-width);
+    height: var(--toggle-height);
+    border-radius: var(--toggle-height);
+    background: rgb(235, 235, 235);
+    border: 1px solid rgb(177, 177, 177);
+    transition: background 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(124, 124, 124);
+}
+
+/* Add these styles for Yes and No text */
+
+.toggle-switch {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    width: var(--toggle-switch-size);
+    height: var(--toggle-switch-size);
+    background: rgb(255, 255, 255);
+   border: 0.5px solid gray;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(calc(var(--toggle-height) / -2));
+    transition: transform 0.3s;
+}
+
+input[type="checkbox"]:checked + .toggle-label {
+    background: rgb(225, 1, 60);
+    color: rgb(255, 255, 255);
+}
+
+input[type="checkbox"]:checked + .toggle-label .toggle-switch {
+    transform: translateY(-50%) translateX(calc(var(--toggle-width) - var(--toggle-height) / 2));
+}
+
+
+input[type="checkbox"]:checked + .toggle-label .toggle-inner::before {
+    display: none;
+}
+
+input[type="checkbox"]:checked + .toggle-label .toggle-inner::after {
+    display: flex;
+}
+
+input[type="checkbox"] + .toggle-label .toggle-inner::before {
+    display: block;
+}
+
+input[type="checkbox"] + .toggle-label .toggle-inner::after {
+    display: none;
+}
+
+
+.toggle-inner::before {
+    content: "Yes";
+    font-size: 10px;
+}
+
+.toggle-inner::after {
+    content: "No";
+    font-size: 10px;
+}
+
+.toggle-cb {
+    display: none;
+}
+
+.toggle-inner::before {
+    content: "No";
+}
+
+.toggle-inner::after {
+    content: "Yes";
+}
+
+.toggle-cb {
+    display: none;
+}
