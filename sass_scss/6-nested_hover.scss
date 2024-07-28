@@ -1,6 +1,12 @@
 /* 6. Nested hover - Write a Sass file that assigns: You must use nested declarations */
+
+$first_color: #FF0000;
+$second_color: #00FF00;
+
 button {
-    color: #FF0000;
+    color: $first_color; // button text color: #FF0000
+
     &:hover {
-        color: #00FF00; }
- }
+        color: $second_color; // button text color on hover: #00FF00
+    }
+}
