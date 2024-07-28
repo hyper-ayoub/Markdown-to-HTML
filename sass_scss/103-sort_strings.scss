@@ -1,10 +1,1 @@
-// styles.scss
 
-// Define a list to sort
-$list_to_sort: 5px 1rem 2em 10% 15px;
-
-// Sort the list
-$sorted_list: sort($list_to_sort);
-
-// Print the sorted list using @debug
-@debug $sorted_list;
