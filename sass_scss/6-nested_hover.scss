@@ -1,5 +1,7 @@
-/* uses nested declarations */
+// SCSS code
 button {
-  color: #FF0000; }
-  &:hover {
-    color: #00FF00; }
+    color: #FF0000; // button text color
+    &:hover {
+        color: #00FF00; // button text color on hover
+    }
+}
