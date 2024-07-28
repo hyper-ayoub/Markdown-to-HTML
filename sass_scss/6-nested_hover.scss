@@ -1,13 +1,6 @@
 // SCSS code
 button {
-    color: #FF0000; // button text color
-
-    &::before {
-        content: "Click me: "; // text added before the button content
-        color: #0000FF; // color for the added text
-    }
-
-    &:hover {
-        color: #00FF00; // button text color on hover
+    color: #FF0000;&:hover {
+        color: #00FF00; 
     }
 }
