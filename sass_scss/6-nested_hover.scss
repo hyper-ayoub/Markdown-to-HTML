@@ -1,5 +1,5 @@
 /* uses nested declarations */
 button {
   color: #FF0000; }
-  button:hover {
+  &:hover {
     color: #00FF00; }
