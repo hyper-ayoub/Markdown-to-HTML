@@ -6,9 +6,7 @@ $color2: #00FF00;
 
 // Style button element
 button {
-  color: $color; // Set text color to #FF0000
-  
-  // Nested hover state
+  color:
   &:hover {
     color: $color2; // Change text color to #00FF00 on hover
   }
