@@ -1,9 +1,15 @@
-/* change button color on hover*/
+// styles.scss
+
+// Define color variables
 $color: #FF0000;
 $color2: #00FF00;
+
+// Style button element
 button {
-	color: $color;
-	&:hover {
-		color: $color2;
-	}
+  color: $color; // Set text color to #FF0000
+  
+  // Nested hover state
+  &:hover {
+    color: $color2; // Change text color to #00FF00 on hover
+  }
 }
