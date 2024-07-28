@@ -1,9 +1,9 @@
-// styles.scss
-
+/* change button color on hover*/
+$color: #FF0000;
+$color2: #00FF00;
 button {
-  color: #FF0000; // Set initial text color for button tags
-  
-  &:hover {
-    color: #00FF00; // Change text color on hover
-  }
+	color: $color;
+	&:hover {
+		color: $color2;
+	}
 }
