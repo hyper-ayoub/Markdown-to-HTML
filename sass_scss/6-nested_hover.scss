@@ -1,6 +1,7 @@
-// SCSS code
+// task 6 //
 button {
-    color: #FF0000;&: {
-        color: #00FF00; 
+    color: #FF0000; // button text color: #FF0000
+
+    &:hover {
+        color: #00FF00; // button text color on hover: #00FF00
     }
-}
