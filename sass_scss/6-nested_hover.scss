@@ -1,8 +1,7 @@
-/* CSS code */
+// SCSS code
 button {
-    color: #FF0000; /* button text color */
-}
-
-button:hover {
-    color: #00FF00; /* button text color on hover */
+    color: #FF0000; // button text color
+    &:hover {
+        color: #00FF00; // button text color on hover
+    }
 }
