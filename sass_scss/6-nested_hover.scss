@@ -1,9 +1,8 @@
-/* Hello World */
-$color: #FF0000;
-$color2: #00FF00;
+/* uses nested declarations */
+
 button {
-	color: $color;
-	&:hover {
-		color: $color2;
-	}
+    color: #ff0000;
+   &:hover {
+        color: #00FF00
+    }
 }
