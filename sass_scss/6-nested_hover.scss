@@ -1,8 +1,9 @@
-/* nested hover style */
+// styles.scss
 
 button {
-  color: #FF0000;
+  color: #FF0000; // Set initial text color for button tags
+  
   &:hover {
-    color: #00FF00;
+    color: #00FF00; // Change text color on hover
   }
 }
