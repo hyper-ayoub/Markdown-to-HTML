@@ -1,12 +1,11 @@
-// color
-$text-color: #FF0000; 
-
-/* This will set the text color of button elements */
+/* This will set the text color of paragraph elements inside button */
 button {
-    color: $text-color;
-}
-
-/* Nested example for hover state */
-button:hover {
-    color: #00FF00; // Green color on hover
+    p {
+        color: #FF0000; // Red color for text inside the paragraph
+    }
+    &:hover {
+        p {
+            color: #00FF00; // Green color for text inside the paragraph on hover
+        }
+    }
 }
