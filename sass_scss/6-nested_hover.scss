@@ -1,11 +1,10 @@
 /* This will set the text color of paragraph elements inside button */
 button {
     p {
-        color: #FF0000; // Red color for text inside the paragraph
-    }
+        color: #FF0000; 
+    
     &:hover {
         p {
-            color: #00FF00; // Green color for text inside the paragraph on hover
-        }
+            color: #00FF00; 
     }
 }
