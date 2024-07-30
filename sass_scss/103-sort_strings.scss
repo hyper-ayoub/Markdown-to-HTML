@@ -7,4 +7,6 @@ $sorted-list: anna carrie felicia john kim zoe;
 @each $name in $sorted-list {
   $debug-output: $debug-output + $name + " ";
 }
+@debug $debug-output;
 @debug $sorted-list;
+
