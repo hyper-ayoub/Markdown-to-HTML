@@ -1,0 +1,19 @@
+/* mixin */
+
+
+/* @ mixin with property */
+
+@mixin margin_lr($marginlr) {
+margin-left: $marginlr;
+margin-right: $marginlr;
+}
+
+/* using include */
+body {
+	@include margin_lr(10px);
+}
+div {
+	@include margin_lr(15px);
+}
+
+
