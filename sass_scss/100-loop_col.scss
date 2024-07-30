@@ -1,0 +1,8 @@
+/* Columns and operators in @for */
+
+@for $i from 1 to 4 {
+   .col-#{$i} {
+	   width: 100% / $i;}
+   }
+
+
