@@ -2,11 +2,10 @@
 
 @import '103-sort_list';
 
-// Define the sorted list (manually or as needed)
 $sorted-list: anna carrie felicia john kim zoe;
 
 @each $name in $@list_to_sort; {
-  $debug-output: $debug-output + $name + " ";
+  $sorted-list: anna carrie felicia john kim zoe;
 }
 
 // Debug the final result to the terminal
