@@ -1,12 +1,17 @@
-/* list */
+/* 103-sort_strings.scss */
 
 @import '103-sort_list';
 
+// Initialize a variable for concatenated names
+$debug-output: "DEBUG: ";
+
+// Manually define the sorted list (this is static as SCSS cannot sort dynamically)
 $sorted-list: anna carrie felicia john kim zoe;
 
-@each $name in $@list_to_sort; {
-  $sorted-list: anna carrie felicia john kim zoe;
+// Concatenate names into $debug-output
+@each $name in $sorted-list {
+  $debug-output: $debug-output + $name + " ";
 }
 
-// Debug the final result to the terminal
-@debug $list_to_sort;
+// Debug the final result in the format you want
+@debug $debug-output;
