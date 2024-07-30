@@ -1,17 +1,1 @@
-/* 103-sort_strings.scss */
-
-@import '103-sort_list';
-
-// Manually define the sorted list (as SCSS cannot sort dynamically)
-$sorted-list: anna carrie felicia john kim zoe;
-
-// Initialize the debug output string
-$debug-output: "";
-
-// Concatenate names into $debug-output
-@each $name in $sorted-list {
-  $debug-output: $debug-output + $name + " ";
-}
-
-// Debug output
-@debug $debug-output;
+/* Write a Sass file that sorts the variable $list_to_sort and prints the sorted list in the debug output. */
