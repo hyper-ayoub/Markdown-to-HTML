@@ -6,7 +6,7 @@
 $sorted-list: anna carrie felicia john kim zoe;
 
 // Initialize the debug output string
-$debug-output: "DEBUG: ";
+$debug-output: "";
 
 // Concatenate names into $debug-output
 @each $name in $sorted-list {
