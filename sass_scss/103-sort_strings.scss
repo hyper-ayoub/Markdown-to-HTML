@@ -7,12 +7,4 @@ $sorted-list: anna carrie felicia john kim zoe;
 @each $name in $sorted-list {
   $debug-output: $debug-output + $name + " ";
 }
-
-// Use .debug class to create CSS content
-.debug {
-  &:before {
-    content: "DEBUG: #{$debug-output}";
-    display: block;
-  }
-}
-
+@debug $sorted-list;
