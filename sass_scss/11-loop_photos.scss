@@ -1,13 +1,13 @@
 /* for each */
 /* background example */
-/* list-names => iamges */
 /* use @import && @each */
 
 
 @import "11-photos.scss";
-
+/* photo is the class */
+/* list-names*/
+/* .class--#{list-names} */
 @each $photo-name in $list-names {
     .photo--#{photo-name} {
 	     background: image-url("photos/{$photo-name}.jpg") no-repeat; }
 }
-
