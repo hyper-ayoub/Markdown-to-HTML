@@ -1,0 +1,18 @@
+@import '103-sort_list';
+
+$debug-output: "";
+$sorted-list: anna carrie felicia john kim zoe;
+
+// Concatenate names into $debug-output
+@each $name in $sorted-list {
+  $debug-output: $debug-output + $name + " ";
+}
+
+// Use .debug class to create CSS content
+.debug {
+  &:before {
+    content: "DEBUG: #{$debug-output}";
+    display: block;
+  }
+}
+
