@@ -1,10 +1,15 @@
 @import '103-sort_list';
 
+// Initialize an empty string for debug output
 $debug-output: "";
+
+// Define the sorted list (manually or as needed)
 $sorted-list: anna carrie felicia john kim zoe;
 
-
-@each $name in $debug-output {
-  $sorted-list: $debug-output + $name + " ";
+// Concatenate names into $debug-output
+@each $name in $sorted-list {
+  $debug-output: $debug-output + $name + " ";
 }
-@debug $sorted-list;
+
+// Debug the final result to the terminal
+@debug $debug-output;
