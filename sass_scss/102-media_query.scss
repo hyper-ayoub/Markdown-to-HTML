@@ -1,0 +1,14 @@
+/* Media query #1 level1 */
+
+$size0: 20px;
+$size1: 18px;
+$size2: 16px;
+$size3: 14px;
+$color: #1D1D1D;
+
+h1 {font-size: $size0;}
+
+@media screen and (max-wdith:960px) {h1 {font-size: $size1;}}
+@media screen and (max-wdith:640px) {h1 {font-size: $size2;}}
+@media screen and (max-wdith:320px){h1 {font-size: $size3;}}
+@media screen and (max-wdith:320px) { h1.small {color: $color;}}
