@@ -1,7 +1,7 @@
 @import '103-sort_list';
 
 $debug-output: "";
-$sorted-list: anna carrie felicia john kim zoe;
+$sorted-list: bob anna sylvain john ludo colin patrick;
 
 // Concatenate names into $debug-output
 @each $name in $sorted-list {
