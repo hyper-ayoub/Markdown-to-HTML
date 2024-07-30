@@ -1,10 +1,7 @@
-$color1: #FF0000;
-$color-hover: #00FF00;
-
+/*  nested hover */
 button {
-  color: $color1;
-  
-  :hover {
-    color: $color-hover;
-  }
+  color: #FF0000;
+}
+button:hover {
+  color: #00FF00;
 }
